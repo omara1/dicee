@@ -23,10 +23,10 @@ var secondName = prompt("enter the name of second player ");
 
 
 if (randomNumber1 > randomNumber2) {
-  document.querySelector("h1").innerHTML = "🚩 " + fristName + " is a winner";
+  document.querySelector("h1").innerHTML = "🚩 " + fristName + " is a winner!";
 }
 else if (randomNumber2 > randomNumber1) {
-  document.querySelector("h1").innerHTML =  secondName + " is a winner ! 🚩";
+  document.querySelector("h1").innerHTML =  secondName + " is a winner! 🚩";
 }
 else {
   document.querySelector("h1").innerHTML = "Draw!";
